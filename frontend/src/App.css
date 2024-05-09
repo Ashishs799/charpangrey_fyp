@@ -1,0 +1,23 @@
+:root {
+  /* --primary-color: #181b3a; */
+  --primary-color: #1bf72e;
+  --secondary-color: #d6ce15;
+  /* --body-bg: #0b0c28; */
+  --body-bg: #fff;
+  --card-01-bg: linear-gradient(#ef621c, #e1424e);
+  --card-02-bg: linear-gradient(#01d293, #56c57a);
+  --card-03-bg: #725cff;
+  --card-04-bg: #2884ff;
+  /* --heading-color: #1e1e1e; */
+  --heading-color: #4b505e;
+  --small-text-color: #4b505e;
+  --recommend-car01-bg: #e1dfa4;
+  --recommend-car02-bg: #e3ecf1;
+  --recommend-car03-bg: #f4e3e5;
+}
+
+.app {
+  position: relative;
+  width: 100vw;
+  height: auto;
+}

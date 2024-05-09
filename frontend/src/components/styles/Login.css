@@ -1,0 +1,225 @@
+@import url("https://fonts.googleapis.com/css2?family=Handjet&family=Kurale&family=Lato:wght@300;400&family=League+Spartan&family=Merriweather+Sans:wght@300&family=Montserrat&family=Nunito:wght@300&family=Oswald:wght@500&family=Poppins:wght@300;700&family=Raleway:wght@500;800&family=Roboto&display=swap");
+
+.wrapper {
+  width: 100vw;
+  height: 100vh;
+  background: #fff;
+  /* background: url("../assets/slider2.jpg") no-repeat left;
+  background-size: cover; */
+}
+
+.loginForm {
+  width: 450px;
+  /* height: 500px; */
+  display: flex;
+  flex-direction: column;
+  background: var(--body-bg);
+  backdrop-filter: blur(2px);
+  padding-bottom: 30px;
+  position: absolute;
+  top: 50%;
+  /* top: 55%; */
+  left: 50%;
+  /* left: 20%; */
+  transform: translate(-50%, -50%);
+  box-shadow: 6px 6px 40px rgba(0, 0, 0, 0.03),
+    -6px -6px 40px rgba(0, 0, 0, 0.03);
+}
+.text {
+  /* color: #f0faf2; */
+  color: var(--primary-color);
+  font-size: 2.5em;
+  font-weight: 700;
+}
+
+.underline {
+  width: 61px;
+  height: 5px;
+  background: var(--secondary-color);
+  border-radius: 9px;
+}
+
+.header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 9px;
+  width: 100%;
+  margin-top: 25px;
+}
+
+.inputs {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+
+.icons {
+  display: flex;
+  align-items: center;
+  margin: auto;
+  width: 320px;
+  height: 45px;
+  border-radius: 5px;
+  position: relative;
+}
+.icons span {
+  width: 20px;
+  height: 20px;
+  position: relative;
+  left: 20px;
+  color: var(--small-text-color);
+  cursor: pointer;
+  position: absolute;
+  left: 270px;
+}
+
+input[type="checkbox"] {
+  accent-color: #1bf72e;
+}
+
+.icons input {
+  height: 50px;
+  width: 300px;
+  background: transparent;
+  border: none;
+  border-bottom: 2px solid #a6a6a6;
+  outline: none;
+  /* color: #f0faf2; */
+  color: var(--small-text-color);
+  font-size: 16px;
+  padding-left: 10px;
+  transition: 0.3s ease;
+  margin: 0 20px;
+}
+.icons input:focus {
+  border-bottom: 2px solid #1bf72e;
+}
+.forgot span {
+  margin-left: 58px;
+  color: #d20000;
+  cursor: pointer;
+  font-size: 15px;
+}
+.forgot #remember {
+  /* margin-left: 60px; */
+  margin-left: 85px;
+}
+.forgot label {
+  color: var(--small-text-color);
+  font-size: 15px;
+}
+
+.social-integration {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.social-integration .line {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: var(--small-text-color);
+  margin: 20px;
+}
+.line span {
+  position: relative;
+}
+
+.line span::before {
+  content: "";
+  position: absolute;
+  width: 75px;
+  height: 1px;
+  background: var(--small-text-color);
+  top: 50%;
+  left: -89px;
+}
+
+.line span::after {
+  content: "";
+  position: absolute;
+  width: 75px;
+  height: 1px;
+  background: var(--small-text-color);
+  top: 50%;
+  right: -82px;
+}
+
+.socialmedias {
+  /* background: red; */
+  /* height: 100px; */
+  width: 275px;
+  display: flex;
+  /* flex-direction: column; */
+  justify-content: space-between;
+  column-gap: 10px;
+  margin: 0 100px;
+}
+.socialmedias button {
+  background: #1bf72d19;
+  width: 180px;
+  display: flex;
+  border: none;
+  /* border: 1px solid #f0faf2fff54; */
+  align-items: center;
+  justify-content: space-evenly;
+  padding: 10px 0;
+  text-align: center;
+  cursor: pointer;
+}
+.socialmedias button:hover {
+  background: #ffffff32;
+}
+.socialmedias button span {
+  font-size: 16px;
+  color: var(--small-text-color);
+}
+.socialmedias button img {
+  width: 20px;
+  /* height: 30px; */
+}
+.newuser {
+  text-align: center;
+  color: var(--small-text-color);
+  margin-top: 20px;
+  font-size: 13px;
+}
+
+.newuser span {
+  color: #d20000;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.loginBtn.btn .mutualbtn {
+  /* width: 130px; */
+  width: 275px;
+  background: #1bf72e;
+  /* border-radius: 10px; */
+  border: none;
+  padding: 10px 5px;
+  font-size: 16px;
+  /* margin-top: 10px; */
+  color: #f0faf2;
+  margin-left: 85px;
+  cursor: pointer;
+  transition: 0.5s ease;
+}
+
+.mt25 {
+  margin-top: 25px;
+}
+
+.loginBtn.btn .mutualbtn:hover {
+  /* background: linear-gradient(to right, #D6CE15, #53900F); */
+  background: var(--secondary-color);
+}
+
+/*  Signup inputs */
+.signup {
+  /* height: 575px; */
+  /* top: 65%; */
+}

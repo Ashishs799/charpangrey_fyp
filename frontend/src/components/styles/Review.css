@@ -1,0 +1,87 @@
+.review {
+  width: 60vw;
+}
+
+.review .stars {
+  display: flex;
+  font-size: 24px;
+  margin: 20px 0;
+  color: rgb(219, 219, 17);
+}
+.review textarea {
+  margin: 20px 0;
+  width: 100%;
+  height: 50px;
+  resize: none;
+  outline: none;
+  padding: 5px 10px;
+}
+.review textarea:focus {
+  border: 1px solid#1bf72e;
+}
+
+/* CSS */
+.button_review {
+  background: #1bf72e;
+  margin: 10px 0;
+  /* border-radius: 8px; */
+  border-style: none;
+  box-sizing: border-box;
+  color: #fff;
+  cursor: pointer;
+  display: inline-block;
+  font-family: "Haas Grot Text R Web", "Helvetica Neue", Helvetica, Arial,
+    sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  height: 40px;
+  line-height: 20px;
+  list-style: none;
+  margin: 0;
+  outline: none;
+  padding: 10px 20px;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  transition: color 100ms;
+  vertical-align: baseline;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.button_review1:hover,
+.button_review:focus {
+  background-color: #1bf72e;
+}
+
+.review_container {
+  margin: 20px 0;
+  /* background: chartreuse; */
+}
+.review .review_box {
+  width: 100%;
+  padding: 20px 0;
+  height: 20px;
+  margin: 20px 0;
+}
+
+.review_box .reviewer {
+  border: 1px solid #dcdedc;
+  /* background: darkcyan; */
+  display: flex;
+  column-gap: 100px;
+}
+
+.reviewer p {
+  font-size: 12px;
+}
+
+.reviewer span {
+  font-style: italic;
+  font-size: 12px;
+}
+
+.review_box .review {
+  margin: 10px 0;
+}

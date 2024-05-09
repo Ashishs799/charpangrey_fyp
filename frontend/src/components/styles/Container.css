@@ -1,0 +1,355 @@
+.section-I {
+  position: relative;
+  /* top: 0;
+  left: 0; */
+  /* height: 100vh; */
+  width: 100vw;
+  /* background: cadetblue; */
+  box-sizing: border-box;
+}
+
+.public-m {
+  width: calc(100vw - 200px);
+  margin: 0 100px;
+}
+
+.section-I .browseType {
+  display: flex;
+  margin: 40px 0;
+  justify-content: space-between;
+  align-items: center;
+  /* background: red; */
+}
+
+.browseType .types {
+  width: 150px;
+  height: 120px;
+  display: flex;
+  /* background: cadetblue; */
+  /* border: 1px solid #000000; */
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  object-fit: contain;
+  border-radius: 10px;
+  box-shadow: 6px 6px 10px rgba(0, 0, 0, 0.06),
+    -6px -6px 20px rgba(0, 0, 0, 0.06);
+  cursor: pointer;
+  position: relative;
+  transition: all 0.5s ease;
+}
+.browseType .types:hover {
+  background: #d6ce15;
+  color: #fff;
+}
+
+.carType {
+  text-align: center;
+}
+
+.carType h2 {
+  font-size: 3rem;
+  font-weight: 700;
+  color: var( --heading-color);
+}
+
+.browseType .types img {
+  object-fit: contain;
+  width: 60px;
+  height: 60px;
+}
+.types:nth-child(5) img {
+  transform: translateY(-10px);
+}
+.types span {
+  font-size: 16px;
+  font-weight: normal;
+  letter-spacing: 2px;
+}
+
+.buy-sell-car {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.buy-sell-car .looking-car,
+.buy-sell-car .sell-car {
+  width: 49%;
+  height: 350px;
+  background: #d6d0155a;
+  display: flex;
+  margin: 40px 0;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 0 80px;
+  gap: 10px;
+  border-radius: 20px;
+}
+
+.buy-sell-car .sell-car {
+  background-color: #1bf72d53;
+}
+
+.buy-sell-car .looking-car h2,
+.buy-sell-car .sell-car h2 {
+  font-size: 2rem;
+  color: #2c3531;
+  display: block;
+  width: 50%;
+}
+
+.buy-sell-car .looking-car span,
+.buy-sell-car .sell-car span {
+  font-size: 16px;
+  display: block;
+  width: 70%;
+  line-height: 1.5;
+  color: #2c3531;
+  margin: 10px 0;
+}
+
+.buy-sell-car .looking-car button,
+.buy-sell-car .sell-car button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 160px;
+  height: 50px;
+  border-radius: 10px;
+  border: none;
+  background: #d6ce15;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 500;
+  cursor: pointer;
+  /* margin-top: 20px; */
+}
+
+.buy-sell-car .sell-car button {
+  background: #18e029;
+}
+
+.buy-sell-car .looking-car button:hover {
+  background: #a4a71e;
+}
+.buy-sell-car .sell-car button:hover {
+  background: #1aa826;
+}
+
+.btns {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+  /* background: red; */
+}
+
+.btns img {
+  width: 80px;
+  width: 80px;
+}
+
+/*  Featured Car  section*/
+
+.section-I .featuredcars {
+  /* background: yellow; */
+  /* width: auto; */
+  height: 100vh;
+  text-align: center;
+  box-sizing: border-box;
+}
+
+.featuredcars .featured-head {
+  font-size: 3rem;
+  font-weight: 800;
+  padding: 100px 0 50px 0;
+  color: var(--heading-color);
+}
+
+.featuredcars .featuredlist {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* background: #0F5959; */
+}
+
+.car-detail {
+  width: 320px;
+  height: 420px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+  background: #1bf72e08;
+  border-radius: 5px;
+  position: relative;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+}
+
+.car-detail .featuredimg {
+  /* width: calc(100% - 4px); */
+  /* margin: 0 2px; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  width: 100%;
+  height: 52%;
+  top: 0;
+  padding: 15px 20px;
+  overflow: hidden;
+}
+
+.car-detail .featuredimg img {
+  width: 100%;
+  /* height: 100%; */
+  object-fit: cover;
+}
+.car-detail .bookmark {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background: #edecec;
+  position: absolute;
+  top: 8px;
+  right: 8px;
+  transition: 0.3s ease;
+  z-index: 2;
+  cursor: pointer;
+}
+
+.bookmark:hover {
+  background: #1bf72e;
+  color: #fff;
+}
+
+.car-detail .ml {
+  margin-left: 30px;
+  position: absolute;
+}
+.car-detail .title {
+  font-size: 18px;
+  padding: 10px 0;
+  /* color: #000; */
+  top: 55%;
+  cursor: pointer;
+  transition: all 0.5s ease;
+}
+
+.car-detail .title:hover {
+  color: #1bf72e;
+  text-decoration: underline;
+}
+
+.car-detail .car-features {
+  top: 70%;
+  width: calc(100% - 60px);
+  margin: 0 30px;
+  margin-top: -10px;
+  /* background: pink; */
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 0;
+  align-items: center;
+  border-bottom: 1px solid #2c353135;
+  border-top: 1px solid #2c353135;
+}
+
+.flex-column {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 18px;
+  cursor: pointer;
+  transition: all 0.5s ease;
+}
+/* .flex-column:hover {
+  color: #f2f2f2;
+} */
+.flex-column span {
+  font-size: 16px;
+  margin-top: 5px;
+}
+
+.car-detail .prices {
+  bottom: 30px;
+  width: calc(100% - 60px);
+  margin: 0 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* background: red; */
+}
+
+.prices .view_details span {
+  font-size: 16px;
+  font-weight: 500;
+  /* color: #fff; */
+  /* color: #d6ce15; */
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+}
+.prices .price {
+  font-size: 18px;
+  font-weight: 700;
+}
+
+/*  Reusable component css */
+.carousel-container {
+  width: 100%;
+}
+
+.react-multiple-carousel__arrow--left {
+  left: 0px !important;
+}
+.react-multiple-carousel__arrow--right {
+  right: 14px !important;
+}
+
+.react-multiple-carousel__arrow {
+  display: none;
+  transition: all 0.3s ease;
+}
+
+.featuredlist:hover .react-multiple-carousel__arrow {
+  display: block;
+}
+
+.prices .view_details {
+  background-color: var(--primary-color);
+  border-radius: 8px;
+  border-style: none;
+  box-sizing: border-box;
+  color: #ffffff;
+  cursor: pointer;
+  display: inline-block;
+
+  font-size: 14px;
+  font-weight: 500;
+  height: 35px;
+  line-height: 20px;
+  list-style: none;
+  /* margin: 0; */
+  outline: none;
+  padding: 0 15px;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  transition: 0.3s ease;
+  vertical-align: baseline;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.prices .view_details:hover,
+.prices .view_details:focus {
+  background-color: #18e029;
+}

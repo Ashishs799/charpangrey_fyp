@@ -1,0 +1,179 @@
+.sections {
+  background: #fff;
+  width: 100vw;
+  border-radius: 70px;
+  padding: 80px 0;
+}
+.section_wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  /* background: teal; */
+}
+.car_details_wrapper h1 {
+  font-size: 2.5rem;
+}
+
+.car_details .images_box img {
+  width: 100%;
+  height: 100%;
+  /* object-fit: cover; */
+  /* background: chartreuse; */
+}
+
+.car_details .quick_info {
+  width: 500px;
+  margin: 10px 0;
+  /* background: red; */
+}
+.car_details .infos {
+  display: flex;
+  align-items: center;
+  padding: 10px 20px;
+  background: #1bf72d53;
+  border-radius: 15px;
+  font-size: 16px;
+  gap: 5px;
+}
+
+.car_details .book_offer {
+  width: fit-content;
+  gap: 15px;
+  /* background: red; */
+}
+.car_details .book_offer div {
+  margin: 20px 0;
+  background: #1bf72d53;
+  padding: 10px 20px;
+  border-radius: 15px;
+  color: var(--small-text-color);
+  display: flex;
+  gap: 5px;
+  justify-content: center;
+  align-items: center;
+}
+.small_container {
+  display: flex;
+  justify-content: space-between;
+  column-gap: 20px;
+  flex-direction: column;
+}
+.small_container .img_container {
+  /* background: red; */
+  width: 100%;
+  display: flex;
+}
+.car_details .images_box {
+  width: 60vw;
+  height: 70vh;
+  /* background: yellow; */
+}
+.car_details .images_box2 {
+  width: 50%;
+  height: 70vh;
+  /* background: blue; */
+  margin-left: 10px;
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+  overflow: hidden;
+}
+.images_box2 .multiple_img {
+  /* border: 2px solid red; */
+  width: 100%;
+  height: 50%;
+}
+.images_box2 img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  /* background: chartreuse; */
+}
+.small_container .overview {
+  /* background: #ebe9e9; */
+  /* width: 70%; */
+  width: 60vw;
+  height: max-content;
+  display: flex;
+  flex-direction: column;
+  /* align-items: center; */
+  padding: 20px 0;
+}
+.overview h2 {
+  position: relative;
+  /*right: 85px; */
+  margin: 0px 0 20px 0px;
+}
+.overview h2::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -3px;
+  width: 100%;
+  height: 3px;
+  background: #d6ce15;
+}
+.overview .info_table {
+  /* padding: 20px 10px; */
+  /* background: yellow; */
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  /* gap: 10px; */
+  flex-wrap: wrap;
+}
+
+.small_container .overview .info_table .info {
+  width: 35%;
+  /* background: grey; */
+  display: flex;
+  justify-content: space-between;
+  margin: 10px 0;
+}
+
+.overview .info_table .info span {
+  font-weight: 600;
+}
+
+.overview .info_table .info p {
+  position: relative;
+  right: 0;
+}
+
+.small_container .desc {
+  margin: 40px 0;
+  /* background: greenyellow; */
+}
+.desc .desc_2 {
+  /* background: grey; */
+  display: flex;
+  padding: 10px 0;
+  column-gap: 30px;
+}
+.desc .desc_wrapper {
+  background: #d6ce15;
+  padding: 10px;
+  border-radius: 50%;
+}
+.desc .overall_rating {
+  border-radius: 50%;
+  background: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: fit-content;
+  padding: 15px 25px;
+  position: relative;
+}
+
+.desc .overall_rating span {
+  font-size: 12px;
+}
+.desc h2 {
+  padding: 10px 0;
+}
+
+.desc .descBox {
+  padding: 15px 0;
+  /* background: blue; */
+}

@@ -1,0 +1,47 @@
+.main-container {
+  background: #f2f2f2;
+}
+
+/* .main-container .main {
+  background: #1bf72e08;
+} */
+
+.Home {
+  position: relative;
+  top: -85px;
+  left: 0;
+  z-index: 2;
+}
+.Home .video {
+  position: relative;
+  opacity: 0.5;
+  /* z-index: -1; */
+}
+
+.Home .main-head h1 {
+  font-size: 3em;
+  color: #f2f2f2;
+  font-weight: 800;
+}
+
+.Home .main-head {
+  position: absolute;
+  z-index: 1;
+  top: 30%;
+  left: 23%;
+  /* top: 50%;
+      left: 50%; */
+  transform: translate(-50%, -50%);
+}
+
+.Home .scrollBtn {
+  position: absolute;
+  top: 180%;
+  left: 50%;
+  transform: translate(-50%, 100%);
+  z-index: 2;
+}
+/* 
+.main-container .listing{
+  background: #1bf72e08;
+} */

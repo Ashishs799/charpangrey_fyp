@@ -1,0 +1,85 @@
+.compare_box {
+  width: 100%;
+  row-gap: 20px !important;
+  margin: 20px 0;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.comparisions {
+  column-gap: 40px;
+}
+.custom-select {
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  background-color: #ffffff;
+  border: 1px solid #4b505e;
+  padding: 8px 12px;
+
+  font-size: 16px;
+  width: 100%;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  outline: none;
+  cursor: pointer;
+}
+
+.custom-select:focus {
+  border-color: #1bf72e;
+}
+
+.compare_buttons {
+  align-items: center;
+  margin: 20px 0;
+  background-clip: padding-box;
+  border: 1px solid #1bf72e;
+  background-color: transparent;
+  box-shadow: rgba(0, 0, 0, 0.02) 0 1px 3px 0;
+  box-sizing: border-box;
+  color: #1bf72e;
+  cursor: pointer;
+  display: inline-flex;
+  font-family: system-ui, -apple-system, system-ui, "Helvetica Neue", Helvetica,
+    Arial, sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  justify-content: center;
+  line-height: 1.25;
+  min-height: 3rem;
+  padding: calc(0.875rem - 1px) calc(1.5rem - 1px);
+  position: absolute;
+  top: 0;
+  left: 0;
+  text-decoration: none;
+  transition: all 0.3s;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  vertical-align: baseline;
+  width: 100%;
+}
+
+.compare_buttons:hover,
+.compare_buttons:focus {
+  background-color: #1bf72e;
+  box-shadow: rgba(0, 0, 0, 0.1) 0 4px 12px;
+  color: #fff;
+}
+
+.compare_buttons:hover {
+  transform: translateY(-1px);
+}
+
+.compare_buttons:active {
+  background-color: #c85000;
+  box-shadow: rgba(0, 0, 0, 0.06) 0 2px 4px;
+  transform: translateY(0);
+}
+
+.compare_car {
+  width: 100%;
+  display: block;
+  background: red;
+  position: relative;
+}

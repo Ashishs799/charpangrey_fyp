@@ -1,0 +1,81 @@
+.brands_section .types {
+  /* background-color: red ; */
+  width: 200px !important;
+  height: 150px !important;
+  /* border: 1px solid #00000049; */
+  box-shadow: none;
+  transition: 0.5s ease;
+}
+
+.brands_section .types img {
+  width: 50px !important;
+  height: 50px !important;
+}
+
+.brands_section .types span {
+  margin-top: 20px;
+  transition: 0.5s ease;
+  color: #4b505e;
+}
+
+.brands_section .types:hover {
+  background: none;
+}
+.brands_section .types:hover span {
+  color: #1bf72e59;
+}
+
+.why_choose_us {
+  height: 60vh;
+  margin-top: 60px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+.why_choose_us h2 {
+  font-size: 3rem;
+  font-weight: 700;
+  color: #000;
+  text-transform: capitalize;
+}
+
+.why_choose_us .choice_container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.why_choose_us .choices {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  padding: 15px 20px;
+  border-radius: 20px;
+  width: 320px;
+  height: 250px;
+  /* background: #fff; */
+  text-wrap: balance;
+  text-align: center;
+  /* box-shadow: rgba(17, 17, 26, 0.1) 0px 0px 16px; */
+}
+
+.choices .choices_img_box {
+  /* background: yellow; */
+  border-radius: 50%;
+  padding: 10px 12px;
+  box-shadow: rgba(74, 112, 74, 0.1) 0px 8px 24px, rgba(74, 112, 74, 0.1) 0px 16px 56px, rgba(74, 112, 74, 0.1) 0px 24px 80px;
+}
+
+.choices img {
+  width: 60px;
+}
+
+.choices span {
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+.choices p {
+  font-size: 12px;
+}

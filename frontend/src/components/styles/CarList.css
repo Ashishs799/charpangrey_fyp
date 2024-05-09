@@ -1,0 +1,54 @@
+.car_list {
+  height: fit-content !important;
+}
+.car_list .sorting_header {
+  /* background: red; */
+  margin: 20px 0;
+  align-items: last baseline;
+}
+.car_list .sort_selection {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  color: var(--small-text-color);
+  background-color: #fff; /* Set background color to white */
+
+  border-radius: 5px; /* Add border radius for rounded corners */
+  /* Add box shadow for depth */
+}
+
+.car_list .sort_selection span {
+  margin-right: 10px; /* Add margin between text and select box */
+}
+
+.car_list .sort_selection form {
+  display: flex;
+  align-items: center; /* Align form items vertically */
+}
+
+.car_list .sort_selection select {
+  padding: 8px; /* Add padding to select box */
+  border: 1px solid #4b505e; /* Add border */
+  border-radius: 5px; /* Add border radius */
+  background-color: #fff; /* Set background color to white */
+  font-size: 14px; /* Adjust font size */
+  cursor: pointer; /* Change cursor on hover */
+  transition: 0.3s ease; /* Add transition for smoother effects */
+}
+
+.car_list .sort_selection select:focus {
+  transition: 0.3s ease;
+  outline: 2px solid #4b505e; /* Remove default focus outline */
+  /* box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.1);  */
+}
+
+.usedcar_wrapper {
+  flex-direction: row !important;
+  /* gap: 10px; */
+}
+
+.car_details_box {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+}

@@ -1,0 +1,205 @@
+.Addcar {
+  padding: 0px 30px;
+  padding-bottom: 50px;
+  background: #fff;
+  /* background: #0f5959; */
+}
+
+.Addcar .addcar-wrapper {
+  padding: 20px;
+  border-radius: 5px;
+}
+
+.addcar_title {
+  color: var(--heading-color);
+  font-weight: 500;
+  margin: 15px 20px;
+}
+.addcar-form {
+  border: 1px solid #b7ffe913;
+  padding: 20px;
+  border-radius: 5px;
+}
+.addcar-form .cardetail_title {
+  color: var(--heading-color);
+  font-weight: 500;
+  font-size: 20px;
+  margin-bottom: 5px;
+}
+
+.addcar-form label {
+  color: var(--heading-color);
+  margin-bottom: 5px;
+  font-size: 0.9rem;
+}
+.addcar-form .form__group {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  column-gap: 2rem;
+  margin-bottom: 2rem;
+}
+
+.addcar-form .form__group div {
+  display: flex;
+  flex-direction: column;
+  width: 47%;
+  margin: 20px 0;
+}
+
+.addcar-form .form__group div input,
+.addcar-form .form__group div .select_option {
+  width: 100%;
+  padding: 12px 20px;
+  border-radius: 5px;
+  background: transparent;
+  border: 1px solid #1bf72e;
+  color: var(--heading-color);
+  font-size: 1rem;
+}
+
+.addcar-form .form__group div .select_option {
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  border-radius: 5px;
+  padding: 8px 12px;
+  font-size: 16px;
+  cursor: pointer;
+  outline: none;
+}
+
+.addcar-form .form__group div .select_option:hover {
+  background-color: var(--primary-color) !important;
+}
+.addcar-form .form__group div .select_option option:hover {
+  background: red !important;
+}
+.addcar-form .form__group .addcar_desc {
+  width: 100%;
+  /* background: red; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 0;
+}
+
+.addcar-form .form__group #textarea {
+  padding: 12px 20px;
+  border-radius: 5px;
+  background: transparent;
+  border: 1px solid #b7ffe913;
+  color: var(--heading-color);
+  font-size: 1rem;
+  outline: none;
+}
+
+.form__group .addcar_desc .desc {
+  padding: 12px 20px 80px 20px;
+  word-break: break-all;
+}
+.addcar-form .form__group div input::placeholder {
+  color: var(--small-text-color);
+  font-size: 0.9rem;
+}
+
+.addcar-form .form__group div input:focus {
+  outline: none;
+}
+
+/*  Price section */
+.price-form,
+.extra_info {
+  /* background: yellow; */
+  margin-top: 30px;
+}
+
+.price-form .flex-group {
+  flex-direction: column !important;
+  justify-content: center;
+}
+
+.price-form .flex-group div.prices {
+  width: 100%;
+}
+.media .upload-img input.upload {
+  height: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.add_car_btn {
+  /* background: red; */
+  width: 200px;
+  margin-top: 20px;
+  display: flex;
+  gap: 5px;
+  justify-content: space-between;
+  align-items: center;
+}
+.add_car_btn .save__btn,
+.add_car_btn .cancel__btn {
+  height: 37px;
+  padding: 0 8px;
+  border-radius: 5px;
+  border: none;
+  color: #fff;
+  cursor: pointer;
+  transition: all 0.3s ease-in;
+  font-size: 16px;
+}
+.add_car_btn .save__btn {
+  width: 150px;
+  background: #1bf72e;
+}
+.add_car_btn .save__btn:hover {
+  background: #1bf72d72;
+}
+
+.add_car_btn .cancel__btn {
+  width: 90px;
+  background: #ffffff16;
+}
+
+.add_car_btn .cancel__btn:hover {
+  background: #ffffff0b;
+}
+
+.upload-img #upload_img {
+  display: none;
+}
+
+.upload-img .upload_area {
+  /* background: red; */
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 0;
+  border: 1px solid #fff;
+  border-style: dotted;
+  width: 100% !important;
+  height: 300px;
+}
+
+.upload_area img {
+  width: 120px;
+}
+
+.upload_area span {
+  margin: 20px 0;
+  font-size: 1.2rem;
+  font-weight: 500;
+}
+
+.upload-img .upload_area .upload_box {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  margin: 0 !important;
+  padding: 0 20px;
+  /* background: yellow; */
+  justify-content: center;
+}
